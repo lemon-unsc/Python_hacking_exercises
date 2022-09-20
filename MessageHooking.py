@@ -1,14 +1,10 @@
 # program located page 81
 # python version = 2.6
 
-
-from distutils.command.build_scripts import first_line_re
-from re import S
 import sys
 from ctypes import *
 from ctypes.wintypes import MSG
 from ctypes.wintypes import DWORD
-from tracemalloc import start
 
 
 user32 = windll.user32
